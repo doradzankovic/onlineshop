@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #000; 
+    font-family: 'DM Mono', monospace;
+    color: #FFF;
+}
+.logo {
+	text-align: center;
+	margin: 10%;
+}
+.shopnow {
+    text-align: center; 
+}
+.shopnow a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+	border: 1px solid #FFF;
+	padding: 5px;
+}
+.shopnow a:hover {
+	background-color: #2F2F2F;
+}
+.product {
+	background-color: #FFF;
+	display: inline-block;
+	margin: 5px;
+}
+.product h2, h3 {
+	text-align: center;
+}
+.product h2 {
+	font-family: 'Permanent Marker', cursive;
+}
+.productimg {
+	display: block;
+	text-align: center;
+}
+.productimg img {
+	
+}
+.productinfo {
+	text-align: center;
+	background-color: #000;
+}
+.productinfo form {
+	margin: 0;
+	font-size: 18px;
+	color: #FFF;
+	background-color: #000;
+}
+.productinfo input {
+	background-color: #000;
+	color: #FFF;
+	font-size: 18px;
+}
+.productinfo label {
+	border: 1px solid #FFF;
+	padding: 4px;
+	width: 150px;
+	float: left;
+}
+.productinfo input[type=number] {
+	border-style: none;
+	border: 1px solid #FFF;
+	padding: 4px;
+	width: 30px;
+	float:right;
+}
+.productinfo input[type=submit]
+{
+	width: 200px;
+	margin-top: 5px;
+	padding: 5px;
+	border-style: none;
+	border: 1px solid #FFF;
+}
+.basket{
+	font-size: 18px;
+	color: #FFF;
+	background-color: #000;
+	margin: 15px;
+	padding: 5px;
+	
+}
+.basket input[type=submit]
+{
+	width: 160px;
+	margin-top: 5px;
+	padding: 5px;
+	border-style: none;
+	border: 1px solid #FFF;
+	background-color: #000;
+	color: #FFF;
+}
+.checkout {
+	width: 300px;
+}
+.checkout label {
+	color: #FFF;
+	float: left;
+}
+.checkout input[type=text] {
+	background-color: #000;
+	color: #FFF;
+	float: right;
+}
+.checkout input[type=submit] {
+	width: 160px;
+	margin-top: 5px;
+	padding: 5px;
+	border-style: none;
+	border: 1px solid #FFF;
+	background-color: #000;
+	color: #FFF;
+	float: right;
+}
